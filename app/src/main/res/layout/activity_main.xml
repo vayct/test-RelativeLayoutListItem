@@ -1,0 +1,46 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/culture_id"
+        android:layout_width="250dp"
+        android:layout_height="210dp"
+        android:src="@drawable/culture"
+        android:scaleType="fitStart"
+        />
+
+    <TextView
+        android:id="@+id/see_id"
+        android:text="I see you are"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/culture_id"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:id="@+id/man_id"
+        android:text="a man of "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/culture_id"
+        android:layout_below="@+id/see_id"
+        android:textAppearance="?android:textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/culturex_id"
+        android:text="culture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/culture_id"
+        android:layout_below="@+id/man_id"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+
+
+
+</RelativeLayout>
